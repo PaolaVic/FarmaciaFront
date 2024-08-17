@@ -1,0 +1,40 @@
+/* Home.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Aplicar fonte a todo o conteúdo */
+.bg-green-100 {
+  font-family: 'Roboto', sans-serif; /* Define a fonte para o fundo verde e todo o conteúdo */
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif; /* Define a fonte para o título */
+}
+
+p {
+  font-family: 'Roboto', sans-serif; /* Define a fonte para o parágrafo */
+}
+
+button {
+  font-family: 'Roboto', sans-serif; /* Define a fonte para o botão */
+}
+
+/* Adiciona outros estilos, se necessário */
+.bg-green-100 {
+  background-color: #e0f2f1; /* Cor de fundo verde claro */
+}
+
+.container {
+  max-width: 1200px; /* Define a largura máxima do contêiner */
+  width: 100%;
+  padding: 0 20px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c8e6c9; /* Cor de fundo do botão ao passar o mouse */
+}

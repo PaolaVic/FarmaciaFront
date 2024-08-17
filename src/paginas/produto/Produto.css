@@ -1,0 +1,48 @@
+.produto-container {
+    padding: 100px;
+    text-align: center;
+    font-size: 20px;
+    min-height: calc(100vh - 160px);
+}
+
+.produto-container h1 {
+    font-size: 38px; /* Aumenta o tamanho do título principal */
+    margin-bottom: 40px; /* Espaço abaixo do título principal */
+}
+
+.produto-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.produto-item {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 300px;
+    flex: 1 1 300px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.produto-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px; /* Espaço entre a imagem e o texto */
+}
+
+.produto-item h2 {
+    font-size: 20px; /* Diminui o tamanho do subtítulo */
+    margin: 10px 0; /* Espaço acima e abaixo do subtítulo */
+}
+
+footer {
+    margin-top: auto;
+    padding: 20px;
+    background-color: #2e7d32;
+    color: white;
+    text-align: center; /* Alinha o texto ao centro */
+    width: 100%;
+}
